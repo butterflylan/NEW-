@@ -13,7 +13,65 @@
     />
   </head>
   <body>
-    <div class="container">Hello people. I'm live</div>
+    <header>
+      <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <a href="index.html" class="pull-left visible-md visible-lg">
+              <div id="logo-img" alt="Logo image"></div>
+            </a>
+          </div>
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Adores Heritage School</h1></a>
+          </div>
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#collapsable-nav"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="about-us.html"> About Us</a>
+            </li>
+            <li>
+              <a href="Academics.html">
+                <span class="glyphicon glyphicon-education"></span
+                ><br class="hidden-xs" />
+                Academics
+              </a>
+            </li>
+            <li>
+              <a href="admission.html">
+                <span class="glyphicon glyphicon-folder-open"></span
+                ><br class="hidden-xs" />
+                Admission
+              </a>
+            </li>
+            <li>
+              <a href="gallery.html">
+                <span class="glyphicon glyphicon-picture"></span
+                ><br class="hidden-xs" />
+              </a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:0803-712-8084">
+                <span>0803-712-8084</span>
+              </a>
+              <div>* Excellent Beginning, Greater Future</div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
