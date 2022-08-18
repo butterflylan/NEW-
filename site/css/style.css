@@ -75,9 +75,33 @@ body {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+  #logo-img {
+    background: url(../images/school\ logo\ -\ Copy.jpg) no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
 }
 
 @media (max-width: 767px) {
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 {
+    padding-top: 10px;
+    font-size: 5vw;
+  }
+  #collapsable-nav a {
+    font-size: 1.2em;
+  }
+}
+#call-btn {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
