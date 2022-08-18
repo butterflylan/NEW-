@@ -72,6 +72,12 @@ body {
 }
 
 @media (min-width: 1200px) {
+  .jumbotron {
+    background: url(../images/Jumbotron\ 1200px.png) no-repeat;
+    height: 750px;
+    box-shadow: 0 0 50px beige;
+    border: 2px solid black;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
