@@ -1,7 +1,7 @@
 body {
   font-size: 16px;
   color: white;
-  background-color: darkgray;
+  background-color: pink;
   font-family: "Oxygen", sans-serif;
 }
 
@@ -70,13 +70,29 @@ body {
   clear: both;
   margin-top: -30px;
 }
-
+.container .jumbotron {
+  box-shadow: 0 0 50px beige;
+  border: 2px solid black;
+}
+#photos,
+#apply-admission,
+#map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+}
+#photos:hover,
+#apply-admission:hover,
+#map-tile:hover {
+}
+/*end home page*/
 @media (min-width: 1200px) {
-  .jumbotron {
+  .container .jumbotron {
     background: url(../images/Jumbotron\ 1200px.png) no-repeat;
     height: 750px;
-    box-shadow: 0 0 50px beige;
-    border: 2px solid black;
   }
 }
 
@@ -87,10 +103,17 @@ body {
     height: 100px;
     margin: 5px 5px 5px 0;
   }
+  .container .jumbotron {
+    background: url(../images/jumbotron\ 992px.png) no-repeat;
+    height: 750px;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
+  .container .jumbotron {
+    background: url(../images/Jumbotron\ 768px.png) no-repeat;
+    height: 750px;
+  }
 }
-
 @media (max-width: 767px) {
   .navbar-brand {
     padding-top: 10px;
@@ -103,11 +126,23 @@ body {
   #collapsable-nav a {
     font-size: 1.2em;
   }
-}
-#call-btn {
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid rgb(29, 27, 27);
+    background-color: pink;
+    color: black;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: 0.7em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }
 }
