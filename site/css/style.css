@@ -89,6 +89,14 @@ body {
 #map-tile:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
+#Photos {
+  background: url("../images/Photos.jpg.jpg") no-repeat;
+  background-size: contain;
+}
+#apply-admission {
+  background: url("../images/admission\ image.png") no-repeat;
+  background-size: contain;
+}
 /*end home page*/
 @media (min-width: 1200px) {
   .container .jumbotron {
