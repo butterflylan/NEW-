@@ -87,15 +87,29 @@ body {
 #Photos:hover,
 #apply-admission:hover,
 #map-tile:hover {
-  box-shadow: 0 1px 5px 1px #cccccc;
+  box-shadow: 0 1px 5px 1px gray;
 }
 #Photos {
   background: url("../images/Photos.jpg.jpg") no-repeat;
-  background-size: contain;
+  background-size: center;
 }
 #apply-admission {
   background: url("../images/admission\ image.png") no-repeat;
-  background-size: contain;
+  background-size: center;
+}
+#Photos span,
+#apply-admission span,
+#map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: purple;
+  opacity: 0.8;
 }
 /*end home page*/
 @media (min-width: 1200px) {
@@ -153,5 +167,21 @@ body {
   .container .jumbotron {
     margin-top: 30px;
     padding: 0;
+  }
+}
+#Photos,
+#apply-admission {
+  width: 360px;
+  margin: 0 auto 15px;
+}
+@media (max-width: 479px) {
+  .navbar-brand h1 {
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  #Photos,
+  #apply-admission {
+    width: 280px;
+    margin: 0 auto 15px;
   }
 }
