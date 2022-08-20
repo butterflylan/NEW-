@@ -74,7 +74,7 @@ body {
   box-shadow: 0 0 50px beige;
   border: 2px solid black;
 }
-#photos,
+#Photos,
 #apply-admission,
 #map-tile {
   height: 250px;
@@ -84,9 +84,10 @@ body {
   border: 2px solid black;
   overflow: hidden;
 }
-#photos:hover,
+#Photos:hover,
 #apply-admission:hover,
 #map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
 }
 /*end home page*/
 @media (min-width: 1200px) {
